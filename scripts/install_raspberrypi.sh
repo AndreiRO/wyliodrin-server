@@ -211,6 +211,7 @@ printf "{\n\
 
 # Create running_projects file
 mkdir -p /wyliodrin
+cp /home/pi/.bashrc /wyliodrin/.bashrc
 touch /wyliodrin/running_projects
 
 # Create mount and build directories
